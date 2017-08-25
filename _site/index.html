@@ -3,23 +3,44 @@
 <head>
   <title>BLOG</title>
   <link rel="stylesheet" href="./css/styles.css" /> </head>
-
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <body>
-
+   <div class="page"></div>
     <div class="header">
       <div class="title">
         <p id="name" class="firstname">SAYYID</p><br>
         <h1  class="middlename">MUHAMMED</h1><br>
         <p class="lastname">ISHAQ</p>
+        
       </div>
+      
     </div>
     <div class="navigation">
       <ul>
-      <li><a class="projects" href="#">PROJECTS</a></li><br>
-      <li><a class="contactme"href="#">CONTACT ME</a></li><br><hr>
       <li><p class="aboutme">ABOUT ME<br><br>I am <a class="name" href="#">MUHAMMED</a>. I like Webdeveloping because I learned it on my own. Do you ever get your area of interest from other persons, because I do</p></li>
       </ul>
     </div>
+</div>
+  <div class="container">
+      <p class="chead">EMAIL ME</p>
+     <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <input type="text" id="location" name="country" placeholder="Enter Your Country">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </body>
 
 </html>

@@ -1,33 +1,85 @@
 @font-face { font-family: 'Raleway'; font-style: normal; font-weight: 400; src: local("Raleway"), local("Raleway-Medium"), url("../fonts/Raleway-bold.ttf") format("ttf"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
-html { font-family: 'Raleway',sans-serif; background: url("../img/bg.jpg") no-repeat center; }
+html { font-family: 'Raleway', sans-serif; background: black; }
 
 a { text-decoration: none; color: rgba(23, 23, 26, 0.81); letter-spacing: 5px; }
 
 li { list-style-type: none; }
 
-body { display: block; width: 40%; background: white; margin-left: 45%; height: 712px; background: url("../img/navbg.gif") no-repeat center; }
+body { display: block; width: 40%; background: white; margin-left: 10%; height: 650px; }
 
-.title { background: url("../img/titlebg.jpg"); padding-bottom: 81%; -webkit-transition: 500ms; -o-transition: 500ms; transition: 500ms; -webkit-transform: rotateY(0deg); transform: rotateY(0deg); -webkit-transform-origin: left; -ms-transform-origin: left; transform-origin: left; opacity: 1; }
+.title { background: url("../img/titlebg.jpg") no-repeat; padding-bottom: 81%; -webkit-transition: 500ms; -o-transition: 500ms; transition: 500ms; -webkit-transform: rotateY(0deg); transform: rotateY(0deg); -webkit-transform-origin: left; -ms-transform-origin: left; transform-origin: left; opacity: 1; }
 
-.header:hover .title { -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg); opacity: 0; }
+.header:hover .title{ -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg); opacity: 0; }
 
-.header:hover body { margin-left: 0; width: 80%; }
 
-.header { -webkit-perspective: 2000px; perspective: 2000px; }
 
-.middlename { font-size: 6em; font-weight: 300; background: rgba(76, 134, 130, 0.78); }
+.header { -webkit-perspective: 2000px;  perspective: 2000px; }
 
-.firstname { font-size: 1.2em; font-weight: 400; letter-spacing: 5px; padding: 2%; float: left; }
+.middlename { font-size: 5.5em; font-weight: 300; background: rgba(76, 134, 130, 0.78); }
 
-.lastname { font-size: 1.2em; font-weight: 400; letter-spacing: 5px; padding: 0 2%; margin-top: -6%; float: right; }
+.firstname { font-size: 1.2em; font-weight: 400; letter-spacing: 5px; padding: 2%; float: left; color: white; }
 
-.navigation { float: inherit; margin: 0 0; margin-top: -650px; }
+.lastname { font-size: 1.2em; font-weight: 400; letter-spacing: 5px; padding: 0 2%; margin-top: -6%; float: right; color: white; }
 
-.projects { margin-bottom: 35px; background: black; color: white; border: 5px solid black; border-right: 350px solid black; }
+.navigation { margin-top: -120%; }
 
-.contactme { background: black; color: white; border: 5px solid black; border-right: 320px solid black; }
 
 .name { letter-spacing: 2px; color: rgba(40, 187, 201, 0.81); font-size: 1.5em; }
 
-.aboutme { text-align: justify; margin-right: 5%; }
+.aboutme { text-align: justify; margin-right: 5%; margin-bottom: 10%; }
+
+.emailme{ z-index: -1; color: white; margin:  }
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */ 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:black;
+	color: rgb(40, 187, 201);
+    padding: 12px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border-color:  rgb(40, 187, 201);
+    border: none;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:rgb(40, 187, 201);
+    color: black;
+}
+
+input[placeholder]{
+     background: black;	
+     color: rgb(40, 187, 201);
+}
+textarea[placeholder]{
+     background: black;	
+     color: rgb(40, 187, 201);
+    
+}
+/* Add a background color and some padding around the form */
+.container {
+	margin-top: 78%;
+	margin-left: 100%;
+	width: 65%;
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    z-index: -1;
+}
+
+.chead{
+	color: rgb(40, 187, 201);
+}
