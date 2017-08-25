@@ -6,7 +6,7 @@ a { text-decoration: none; color: rgba(23, 23, 26, 0.81); letter-spacing: 5px; }
 
 li { list-style-type: none; }
 
-body { display: block; width: 40%; background: white; margin-left: 45%; height: 712px; background: url("../img/navbg.jpg") no-repeat center; }
+body { display: block; width: 40%; background: white; margin-left: 45%; height: 712px; background: url("../img/navbg.gif") no-repeat center; }
 
 .title { background: url("../img/titlebg.jpg"); padding-bottom: 81%; -webkit-transition: 500ms; -o-transition: 500ms; transition: 500ms; -webkit-transform: rotateY(0deg); transform: rotateY(0deg); -webkit-transform-origin: left; -ms-transform-origin: left; transform-origin: left; opacity: 1; }
 
