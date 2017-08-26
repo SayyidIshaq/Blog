@@ -82,4 +82,15 @@ textarea[placeholder]{
 
 .chead{
 	color: rgb(40, 187, 201);
+	cursor: pointer;
+}
+.chead .hint{
+	visibility: hidden;
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+}
+.chead:hover .hint{
+    visibility: visible;
 }
